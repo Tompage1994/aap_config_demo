@@ -1,2 +1,5 @@
 collections/*
 !collections/requirements.yml
+.vscode
+secrets
+inventory.yml

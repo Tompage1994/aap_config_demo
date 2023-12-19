@@ -1,0 +1,9 @@
+---
+- name: Playbook to configure ansible controller post installation
+  hosts: all
+  connection: local
+  tasks:
+    - name: Include dispatch role
+      ansible.builtin.include_role:
+        name: infra.controller_configuration.dispatch
+...
